@@ -1,6 +1,10 @@
-This is a [Button Component challenge](https://www.greatfrontend.com/projects/challenges/button-component) from the [Great Frontend](https://www.greatfrontend.com) that I am executing in React using[Next.js](https://nextjs.org).
+# Component Challenges
 
-I did not have access to the Figma files for this challenge. I did not take advantage of implementing styles and themes using Tailwind CSS.
+This repo will host my implementation of component challenges from the [Great Frontend](https://www.greatfrontend.com).
+
+Right now I have the [Button Component challenge](https://www.greatfrontend.com/projects/challenges/button-component) from the [Great Frontend](https://www.greatfrontend.com) that I am executing in React using[Next.js](https://nextjs.org). I am currently not taking advantage of implementing styles and themes using Tailwind CSS.
+
+I did not have access to the Figma files for these challenges.
 
 ## Getting Started
 

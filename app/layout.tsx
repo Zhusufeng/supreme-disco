@@ -7,8 +7,8 @@ const noto_sans = Noto_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Button Component Demo",
-  description: "Challenge from the Great Frontend executed by Lisa",
+  title: "Component Challenges by Lisa",
+  description: "Component Challenges from the Great Frontend executed by Lisa",
 };
 
 export default function RootLayout({
