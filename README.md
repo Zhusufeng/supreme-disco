@@ -1,31 +1,29 @@
 # Component Challenges
 
-This repo will host my implementation of component challenges from the [Great Frontend](https://www.greatfrontend.com).
+- This repo will host my implementation of component challenges from the [Great Frontend](https://www.greatfrontend.com).
+- The challenges are executed in React using [Next.js](https://nextjs.org).
+- I am currently **not** taking advantage of Tailwind CSS to implement styles and themes. 👀
+- I do not have access to the Figma files for these challenges.
 
-Right now I have the [Button Component challenge](https://www.greatfrontend.com/projects/challenges/button-component) from the [Great Frontend](https://www.greatfrontend.com) that I am executing in React using[Next.js](https://nextjs.org). I am currently not taking advantage of implementing styles and themes using Tailwind CSS.
+## Challenges Included
 
-I did not have access to the Figma files for these challenges.
+I only have one challenge so far:
 
-## Getting Started
+- [Button Component challenge](https://www.greatfrontend.com/projects/challenges/button-component)
+
+## Deployment
+
+You can view the challenges here:
+https://supreme-disco-sable.vercel.app/
+
+## Development - Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
