@@ -12,7 +12,7 @@ export default function Home() {
             gap: "20px",
           }}
         >
-          <div>Welcome to Lisa's Component Challenges!</div>
+          <div>Welcome to Lisa&apos;s Challenges!</div>
 
           <ol>
             <li>
