@@ -12,16 +12,31 @@ export default function Home() {
             gap: "20px",
           }}
         >
-          <div>Welcome to Lisa's Component Challenges!</div>
+          <div>
+            <h1>Welcome to Lisa&apos;s demos!</h1>
+          </div>
 
-          <ol>
-            <li>
-              -{" "}
-              <Link href="/button" style={{ textDecoration: "underline" }}>
-                Button Challenge
-              </Link>
-            </li>
-          </ol>
+          <div>
+            <h2>Component</h2>
+          </div>
+          <div>
+            <ol>
+              <li>
+                - <Link href="/button">Button Challenge</Link>
+              </li>
+            </ol>
+          </div>
+
+          <div>
+            <h2>React</h2>
+          </div>
+          <div>
+            <ol>
+              <li>
+                - <Link href="/useMemo">useMemo Demo</Link>
+              </li>
+            </ol>
+          </div>
         </div>
       </main>
     </div>
