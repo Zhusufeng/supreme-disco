@@ -1,6 +1,5 @@
 "use client";
 import CustomButton from "../../components/CustomButton";
-import Link from "next/link";
 
 export default function Home() {
   const DEMO_COLORS = [
@@ -59,7 +58,17 @@ export default function Home() {
             gap: "20px",
           }}
         >
-          <div>Welcome to the Button Demo!</div>
+          <div>
+            Welcome to the Button Demo! This is a{" "}
+            <a
+              href="https://www.greatfrontend.com/projects/challenges/button-component"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              challenge
+            </a>{" "}
+            from the Great Frontend.
+          </div>
 
           <div
             style={{
@@ -130,9 +139,6 @@ export default function Home() {
                 </div>
               );
             })}
-          </div>
-          <div>
-            <Link href="/">Back Home</Link>
           </div>
         </div>
       </main>

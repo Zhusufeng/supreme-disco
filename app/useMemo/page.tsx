@@ -1,7 +1,6 @@
 "use client";
 import NoMemo from "./NoMemo";
 import Memo from "./Memo";
-import Link from "next/link";
 
 const UseMemoDemo = () => {
   return (
@@ -42,10 +41,6 @@ const UseMemoDemo = () => {
       <div style={{ display: "flex", gap: "20px" }}>
         <NoMemo />
         <Memo />
-      </div>
-
-      <div>
-        <Link href="/">Back Home</Link>
       </div>
     </main>
   );

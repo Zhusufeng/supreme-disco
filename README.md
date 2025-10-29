@@ -1,29 +1,29 @@
 # Component Challenges
 
-- This repo will host my implementation of component challenges from the [Great Frontend](https://www.greatfrontend.com).
+- This repo will host my implementations of challenges. Some are from the [Great Frontend](https://www.greatfrontend.com), and some are made up.
+  - I do not have access to the Figma files for the Great Frontend challenges.
 - The challenges are executed in React using [Next.js](https://nextjs.org).
 - I am currently **not** taking advantage of Tailwind CSS to implement styles and themes. 👀
-- I do not have access to the Figma files for these challenges.
-
-## Challenges Included
-
-I only have one challenge so far:
-
-- [Button Component challenge](https://www.greatfrontend.com/projects/challenges/button-component)
 
 ## Deployment
 
 You can view the challenges here:
 https://supreme-disco-sable.vercel.app/
 
-## Development - Getting Started
+## Development
 
-First, run the development server:
+### Requirements
 
-```bash
-npm run dev
-```
+- Node.js v22
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you want to run this repo locally, these instructions can help you get started:
+
+1. Download the packages: `npm install`
+
+2. Run the development server: `npm run dev`
+
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+4. You can make edits to the files. The page auto-updates as you save.
