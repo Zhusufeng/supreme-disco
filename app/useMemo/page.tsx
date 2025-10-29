@@ -12,7 +12,7 @@ const UseMemoDemo = () => {
         padding: "20px",
       }}
     >
-      <h2>Memoization Example</h2>
+      <h2 style={{ fontWeight: "bold" }}>Memoization Example</h2>
       <div
         style={{
           display: "flex",
@@ -26,14 +26,14 @@ const UseMemoDemo = () => {
           memoized.
         </p>
         <p>
-          Whenever either calculator calculates the factorial of a number, it is
+          Whenever either calculator calculates the factorial, it is
           purposefully slow.
         </p>
         <p>
           However, when you enter a number to filter, the non-memoized
-          calculator will calculate the factorial again, which will lag the UX
-          whereas the memoized calculator will use the memoized value, and the
-          UX will be fast.
+          calculator lags because it has to calculate the factorial again. The
+          memoized calculator will be fast because it uses the memoized
+          factorial; it does not need to calculate it again.
         </p>
       </div>
 

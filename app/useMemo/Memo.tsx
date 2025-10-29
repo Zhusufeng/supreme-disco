@@ -1,37 +1,25 @@
 "use client";
-import { useState, useMemo } from "react";
-import { NUMBERS, slowFactorial } from "./shared";
-import NumberInput from "./NumberInput";
-import FilterInput from "./FilterInput";
+import { useMemo, useState } from "react";
+import { slowFactorial } from "./shared";
+import Calculator from "./Calculator";
 
-const App = () => {
+const Memo = () => {
   const [count, setCount] = useState(5);
   const [filterText, setFilterText] = useState("");
 
-  // 🧨 This is the expensive computation
+  // useMemo memoizes calculated values
   const factorial = useMemo(() => slowFactorial(count), [count]);
 
-  const filtered = NUMBERS.filter(num => num.toString().includes(filterText));
-
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-      <h3 style={{ fontWeight: "bold" }}>Memoized</h3>
-
-      <NumberInput count={count} setCount={setCount} />
-
-      <h3>Factorial: {factorial}</h3>
-
-      <hr />
-
-      <FilterInput filterText={filterText} setFilterText={setFilterText} />
-
-      <ul>
-        {filtered.map(num => (
-          <li key={num}>{num}</li>
-        ))}
-      </ul>
-    </div>
+    <Calculator
+      title="Memoized"
+      count={count}
+      setCount={setCount}
+      filterText={filterText}
+      setFilterText={setFilterText}
+      factorial={factorial}
+    />
   );
 };
 
-export default App;
+export default Memo;
