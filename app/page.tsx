@@ -22,10 +22,7 @@ export default function Home() {
           <div>
             <ol>
               <li>
-                -{" "}
-                <Link href="/button" style={{ textDecoration: "underline" }}>
-                  Button Challenge
-                </Link>
+                - <Link href="/button">Button Challenge</Link>
               </li>
             </ol>
           </div>
@@ -36,10 +33,7 @@ export default function Home() {
           <div>
             <ol>
               <li>
-                -{" "}
-                <Link href="/useMemo" style={{ textDecoration: "underline" }}>
-                  useMemo Demo
-                </Link>
+                - <Link href="/useMemo">useMemo Demo</Link>
               </li>
             </ol>
           </div>

@@ -1,5 +1,6 @@
 "use client";
 import CustomButton from "../../components/CustomButton";
+import Link from "next/link";
 
 export default function Home() {
   const DEMO_COLORS = [
@@ -129,6 +130,9 @@ export default function Home() {
                 </div>
               );
             })}
+          </div>
+          <div>
+            <Link href="/">Back Home</Link>
           </div>
         </div>
       </main>
