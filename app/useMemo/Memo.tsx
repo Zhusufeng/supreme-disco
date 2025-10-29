@@ -1,6 +1,8 @@
 "use client";
 import { useState, useMemo } from "react";
 import { NUMBERS, slowFactorial } from "./shared";
+import NumberInput from "./NumberInput";
+import FilterInput from "./FilterInput";
 
 const App = () => {
   const [count, setCount] = useState(5);
@@ -13,31 +15,15 @@ const App = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-      <h3>Memoized</h3>
+      <h3 style={{ fontWeight: "bold" }}>Memoized</h3>
 
-      <label>
-        Enter count (1-10):{" "}
-        <input
-          type="number"
-          value={count}
-          onChange={e => setCount(Number(e.target.value))}
-          style={{ border: "1px solid gray" }}
-        />
-      </label>
+      <NumberInput count={count} setCount={setCount} />
 
       <h3>Factorial: {factorial}</h3>
 
       <hr />
 
-      <label>
-        Filter numbers:{" "}
-        <input
-          type="text"
-          value={filterText}
-          onChange={e => setFilterText(e.target.value)}
-          style={{ border: "1px solid gray" }}
-        />
-      </label>
+      <FilterInput filterText={filterText} setFilterText={setFilterText} />
 
       <ul>
         {filtered.map(num => (
