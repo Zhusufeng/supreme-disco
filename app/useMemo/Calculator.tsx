@@ -24,8 +24,8 @@ const Calculator = (props: CalculatorProps) => {
         Enter number (1-10):{" "}
         <input
           type="number"
-          min="0"
-          max="10"
+          min={1}
+          max={10}
           value={count}
           onChange={e => setCount(Number(e.target.value))}
           style={{ border: "1px solid gray", padding: "2px" }}
@@ -46,6 +46,7 @@ const Calculator = (props: CalculatorProps) => {
         />
       </label>
 
+      <h3>Filtered Numbers: </h3>
       <ul>
         {filtered.map(num => (
           <li key={num}>{num}</li>

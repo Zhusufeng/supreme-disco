@@ -30,10 +30,11 @@ const UseMemoDemo = () => {
           purposefully slow.
         </p>
         <p>
-          However, when you enter a number to filter, the non-memoized
-          calculator lags because it has to calculate the factorial again. The
-          memoized calculator will be fast because it uses the memoized
-          factorial; it does not need to calculate it again.
+          However, when you enter a number to filter, the filter under the
+          non-memoized calculator lags because it has to calculate the factorial
+          again. The filter under the memoized calculator will be fast because
+          it uses the memoized factorial; it does not need to calculate it
+          again.
         </p>
       </div>
 
