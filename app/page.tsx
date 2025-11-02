@@ -37,6 +37,18 @@ export default function Home() {
               </li>
             </ol>
           </div>
+
+          <div>
+            <h2>JavaScript</h2>
+          </div>
+          <div>
+            <ol>
+              <li>
+                -{" "}
+                <Link href="/concurrency">Serial vs Concurrent Fetch Demo</Link>
+              </li>
+            </ol>
+          </div>
         </div>
       </main>
     </div>
